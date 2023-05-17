@@ -25,6 +25,6 @@ return(
 )
 }
  async function fecthProduct(){
-    const products = await fetch("https://api.escuelajs.co/api/v1/products", {cache:'no-store'},);
+    const products = await fetch("https://api.escuelajs.co/api/v1/products", {cache:'no-store'});
     return products.json()
 }
